@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://apkhunter.vercel.app/sitemap.xml
+Sitemap: https://jaiclub-chi.vercel.app/sitemap.xml
