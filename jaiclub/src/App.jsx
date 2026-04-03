@@ -6,7 +6,7 @@ function App() {
   const loginLink = "https://www.jaiclub00.com/#/register?invitationCode=64362250282";
   const registerLink = "https://www.jaiclub13.com/#/register?invitationCode=64362250282";
   const downloadLink = "https://www.jaiclub00.com/#/register?invitationCode=64362250282";
-  const homeLink = "https://apkhunter.vercel.app";
+  const homeLink = "https://jaiclub-chi.vercel.app/";
 
   const AHLogo = ({ className }) => (
     <div className={`${className} bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center rounded-xl shadow-[0_4px_10px_rgba(204,0,0,0.3)] border border-red-500/50`}>
@@ -15,8 +15,8 @@ function App() {
         title="Jai Club Login & Download"
         description="Download Jai Club via ApkHunter. Register now to get a free ₹28 bonus. Play fast parity, spin and win, and earn rewards."
         keywords="Jai Club, Jai Club download, ApkHunter, earning games, spin and win"
-        url="https://apkhunter.vercel.app"
-        image="https://apkhunter.vercel.app/gamelogo.webp" 
+        url="https://jaiclub-chi.vercel.app/"
+        image="https://jaiclub-chi.vercel.app/gamelogo.webp" 
       />
       <svg 
         className="w-[65%] h-[65%] text-white drop-shadow-sm" 
