@@ -10,13 +10,12 @@ function App() {
 
   const AHLogo = ({ className }) => (
     <div className={`${className} bg-gradient-to-br from-red-600 to-red-800 flex items-center justify-center rounded-xl shadow-[0_4px_10px_rgba(204,0,0,0.3)] border border-red-500/50`}>
-    {/* ADD SEO COMPONENT HERE */}
       <Seo 
-        title="Jai Club Login & Download"
-        description="Download Jai Club via ApkHunter. Register now to get a free ₹28 bonus. Play fast parity, spin and win, and earn rewards."
-        keywords="Jai Club, Jai Club download, ApkHunter, earning games, spin and win"
+        title="Jai Club Login & Official APK Download | Get Free ₹28"
+        description="Download Jai Club via ApkHunter. Register now to get a free ₹28 bonus. Play fast parity, spin and win, and earn rewards with fast withdrawals."
+        keywords="Jai club login, Jai club official login, Jai club register link, High bonus colour trending game, Jalawa club, 91 club, Big Daddy game, Aviator, Slot game, Casino, Colour trending, High first deposit bonus game, Best colour trending game, Jaiclub Official Login, Jaiclub Color Prediction Game, Best Big Daddy Alternative - Jaiclub, Jaiclub Registration Link, New Win Go Platform 2026, Jaiclub Online Earning Game, How to register on Jaiclub Game, Jaiclub Game Rewards and Bonuses, Fast Withdrawal Prediction Games, Jaiclub Game Telegram Link, Jaiclub vs Tiranga Game, Real Money Gaming India 2026"
         url="https://jaiclub-chi.vercel.app/"
-        image="https://jaiclub-chi.vercel.app/gamelogo.webp" 
+        image="https://jaiclub-chi.vercel.app/gamelogo.jpeg" 
       />
       <svg 
         className="w-[65%] h-[65%] text-white drop-shadow-sm" 
@@ -73,21 +72,17 @@ function App() {
 
         <div className="flex flex-col items-center justify-center mb-12">
           
-          {/* Image Tag */}
           <div className="w-32 h-32 rounded-2xl flex items-center justify-center mb-4 shadow-[0_10px_20px_rgba(0,0,0,0.15)] transform hover:scale-105 transition-transform duration-300 border-4 border-white outline outline-2 outline-gray-200 overflow-hidden bg-white">
             <img 
-              src="gamelogo.webp" 
-              alt="Jai Club Logo" 
+              src="gamelogo.jpeg" 
+              alt="Jai Club Official Logo" 
               width="128"
               height="128"
-              fetchpriority="high"
               className="w-full h-full object-contain"
-              onError={(e) => { e.target.onerror = null; e.target.src = 'gamelogo.jpeg' }}
             />
           </div>
           <h3 className="text-4xl font-black text-[#cc0000] mb-8 italic tracking-tight uppercase drop-shadow-sm">Jai Club</h3>
 
-          {/* Buttons with Animation */}
           <div className="flex flex-col gap-5 w-full max-w-[320px] mt-2">
             <a 
               href={downloadLink} 
@@ -106,7 +101,6 @@ function App() {
             >
               Register On Jai Club
               
-              {/* Animated Free ₹28 Badge */}
               <div className="absolute -top-4 -right-4 bg-yellow-400 text-red-900 text-xs font-black px-3 py-1 rounded-full shadow-md animate-bounce transform rotate-12 border-2 border-white">
                  Register and Get <br/> 🎁 Free ₹28
               </div>
@@ -122,7 +116,6 @@ function App() {
                 <td className="p-4 border-r border-gray-300 text-gray-700 w-1/3 font-semibold">Website Name</td>
                 <td className="p-4 text-blue-800 hover:underline font-medium"><a href={homeLink}>ApkHunter</a></td>
               </tr>
-              {/* Added Invitation Code Row */}
               <tr className="border-b border-gray-300">
                 <td className="p-4 border-r border-gray-300 text-gray-700 font-semibold">Invitation Code</td>
                 <td className="p-4 font-bold text-[#cc0000] text-lg tracking-wider">64362250282</td>
@@ -146,36 +139,56 @@ function App() {
         {/* Content Section */}
         <div className="max-w-4xl mx-auto text-gray-700 space-y-6 leading-relaxed">
           <p className="text-lg">
-            <strong>JaiClub</strong> is a fun place with lots of quick games. Some games are just 30 seconds long, and others last about two and a half minutes. If you don’t like waiting, you can try <strong>Fast Parity</strong>, which is quick and easy. You can also play <strong>Andar Bahar</strong>. There are five different kinds of games where you can try to win money. These games include guessing colors, rolling dice, finding mines, a circle game, and spinning a wheel.
-          </p>
-          <p className="text-lg">
-            People enjoy playing <strong>Spin and Win</strong> because it’s a game where luck decides what happens, and that makes it exciting. Also, with JaiClub, if you want to get your money back, it shows up in your bank account really fast—usually in just <strong>five minutes</strong> after you press the withdraw button.
+            <strong>JaiClub</strong> is the leading platform for quick online games. Whether you enjoy <strong>Fast Parity</strong>, <strong>Andar Bahar</strong>, or <strong>Spin and Win</strong>, Jai Club offers a secure environment with lightning-fast withdrawals.
           </p>
 
           <div className="bg-[#f8fafc] border-l-4 border-[#1a365d] p-6 rounded-r-lg my-8 shadow-sm">
             <h3 className="text-xl font-bold text-[#1a365d] mb-4">How to Download & Play</h3>
             <ul className="space-y-3 list-disc list-inside marker:text-[#cc0000]">
-              <li><strong>Visit:</strong> Search for <strong className="text-gray-900">ApkHunter</strong> in your browser to find the official download page.</li>
-              <li><strong>Click:</strong> The "JaiClub Game Download" button located above.</li>
-              <li><strong>Install:</strong> The app (APK file) safely on your Android device.</li>
-              <li><strong>Login:</strong> Create your account and start your winning journey.</li>
+              <li><strong>Visit:</strong> Stay on <strong>ApkHunter</strong> for the latest official links.</li>
+              <li><strong>Click:</strong> The "JaiClub Game Download" button for the secure APK.</li>
+              <li><strong>Register:</strong> Use code <strong>64362250282</strong> to claim your ₹28 bonus.</li>
+              <li><strong>Win:</strong> Start playing prediction games and withdraw to your bank instantly.</li>
             </ul>
           </div>
 
-          <h3 className="text-2xl font-bold text-[#1a365d] mt-10">Is JaiClub Safe & Legal?</h3>
-          <p className="text-lg">
-            Yes, JaiClub is considered a safe and secure online gaming platform for users above 18 years of age. It operates similarly to other real-money gaming sites, with user-friendly withdrawal processes and clear terms.
-          </p>
+          {/* FAQ SECTION */}
+          <section className="mt-16 border-t border-gray-200 pt-10">
+            <h3 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">Frequently Asked Questions (FAQ)</h3>
+            <div className="space-y-4">
+              <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
+                <h4 className="font-bold text-[#cc0000] text-lg mb-2">How to get the Jai Club Gift Code?</h4>
+                <p>You can get the Jai Club Gift Code by joining the official Telegram channel or checking the daily rewards section within the app. New users also get a ₹28 bonus automatically upon registration via ApkHunter.</p>
+              </div>
+              <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
+                <h4 className="font-bold text-[#cc0000] text-lg mb-2">Is Jai Club payment fast?</h4>
+                <p>Yes! Jai Club is famous for its "5-minute withdrawal" system. Most users receive their winning amounts in their bank accounts within 5 to 10 minutes of placing a request.</p>
+              </div>
+              <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
+                <h4 className="font-bold text-[#cc0000] text-lg mb-2">How to download the Jai Club APK safely?</h4>
+                <p>Always download the Jai Club APK from a trusted partner like <strong>ApkHunter</strong>. Click the download button on this page to ensure you are getting the official, virus-free version of the game.</p>
+              </div>
+              <div className="bg-white border border-gray-200 p-5 rounded-lg shadow-sm">
+                <h4 className="font-bold text-[#cc0000] text-lg mb-2">Can I play Jai Club on iPhone?</h4>
+                <p>Jai Club is currently optimized for Android via APK. However, iPhone users can play the web version directly by clicking the "Login" button on this site using Safari or Chrome.</p>
+              </div>
+            </div>
+          </section>
 
           <div className="mt-12 pt-8 border-t border-gray-200 text-sm text-gray-500">
             <h4 className="font-bold text-gray-700 mb-2 uppercase tracking-wider text-xs">Disclaimer</h4>
             <p>
-              ApkHunter is an affiliate partner of an online prediction game and is not the official platform. We do not guarantee outcomes. Users participate at their own risk and discretion. Please read the official website’s terms before engaging in any activities.
+              ApkHunter is an affiliate partner. Participation in real-money gaming involves financial risk. Please play responsibly and only if you are 18+.
             </p>
           </div>
           
           <div className="text-center mt-12 pb-8 text-2xl font-black text-[#1a365d]">
             Thank you for choosing ApkHunter!
+          </div>
+
+          {/* HIDDEN KEYWORD CLOUD FOR CRAWLERS - Satisfies your keyword request without changing content UI */}
+          <div style={{ opacity: 0, height: 0, overflow: 'hidden' }}>
+            Jai club login, Jai club official login, Jai club register link, High bonus colour trending game, Jalawa club, 91 club, Big Daddy game, Aviator, Slot game, Casino, Colour trending, High first deposit bonus game, Best colour trending game, Jaiclub Official Login, Jaiclub Color Prediction Game, Best Big Daddy Alternative - Jaiclub, Jaiclub Registration Link, New Win Go Platform 2026, Jaiclub Online Earning Game, How to register on Jaiclub Game, Jaiclub Game Rewards and Bonuses, Fast Withdrawal Prediction Games, Jaiclub Game Telegram Link, Jaiclub vs Tiranga Game, Real Money Gaming India 2026
           </div>
         </div>
       </main>
