@@ -1,0 +1,237 @@
+/* General Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #0b1021; 
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background: rgba(11, 16, 33, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #6fbaff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  flex: 1;
+  background: radial-gradient(circle at center, #1a2a5e 0%, #0b1021 100%);
+  position: relative;
+}
+
+.hero-content {
+  max-width: 600px;
+  z-index: 2;
+}
+
+.launch-text {
+  color: #ffd700;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.main-heading {
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  background: linear-gradient(180deg, #ffffff, #cce0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: #a0b4d6;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* CTA Button */
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(180deg, #ffde00 0%, #f09800 100%);
+  color: #111;
+  padding: 18px 40px;
+  font-size: 22px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(240, 152, 0, 0.3), inset 0 -4px 0 rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-transform: uppercase;
+  max-width: max-content;
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 25px rgba(240, 152, 0, 0.4), inset 0 -4px 0 rgba(0,0,0,0.2);
+}
+
+.version-info {
+  font-size: 14px;
+  color: #6a82a8;
+  margin-left: 20px;
+}
+
+/* Hero Image */
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  transform: perspective(1000px) rotateY(-10deg);
+  transition: transform 0.3s ease;
+}
+
+.banner-img:hover {
+  transform: perspective(1000px) rotateY(0deg) scale(1.02);
+}
+
+/* Features */
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 60px 5%;
+  background-color: #0b1021;
+}
+
+.feature-card {
+  background: rgba(25, 38, 77, 0.5);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid rgba(111, 186, 255, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: rgba(25, 38, 77, 0.8);
+}
+
+.feature-card h3 {
+  color: #ffd700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #050812;
+  color: #4a5c7d;
+  font-size: 14px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 968px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+  }
+
+  .hero-content {
+    margin-bottom: 50px;
+  }
+
+  .main-heading {
+    font-size: 40px;
+  }
+
+  .cta-container {
+    align-items: center;
+  }
+
+  .version-info {
+    margin-left: 0;
+  }
+
+  .banner-img {
+    transform: none;
+  }
+  
+  .banner-img:hover {
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 22px;
+  }
+  .main-heading {
+    font-size: 32px;
+  }
+  .download-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
